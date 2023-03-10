@@ -16,7 +16,7 @@ function Home() {
         minHeight: '100%',
         background: 'rgba(0,0,0,.9)',
         color: 'ghostwhite',
-        padding: '1rem'
+        padding: '1.1rem'
     }
   return (
     <div className='home' style={homeStyle}>
