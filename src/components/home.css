@@ -16,7 +16,11 @@
         background-image: url('../proimg.jpeg');
         background-repeat: no-repeat;
         background-size: cover;
-
+        background-position: center;
+        width: 270px !important;
+        border-radius: 35% !important;
+        margin: 1rem auto !important;
+        border: 20px solid #acdcff !important;
     }
     .sec2{
         display: grid;
@@ -32,7 +36,7 @@
     .sec2 {
         grid-template-columns: repeat(2, 1fr);
     }
-    .sec1{
+    /* .sec1{
         height: 300px !important;
-    }
+    } */
 }
