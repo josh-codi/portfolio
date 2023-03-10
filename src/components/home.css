@@ -1,0 +1,38 @@
+.mainMiddle_mobile{display: none !important;}
+@media only screen and (max-width: 768px){
+    .home main>div>h1{
+        font-size: 02.5rem !important;
+    }
+    .mainMiddle_mobile {
+        display: flex !important;
+    }
+    .mainMiddle_mobile h1{
+        font-size: 4rem !important;
+    }
+    .mainMiddle{
+        display: none !important;
+    }
+    .sec1{
+        background-image: url('../proimg.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .sec2{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: auto !important;
+    }
+    .homeFooter{
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .sec2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sec1{
+        height: 300px !important;
+    }
+}
