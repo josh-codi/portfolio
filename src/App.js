@@ -1,13 +1,11 @@
 import store from "./store";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useRef } from "react";
-import { bugAdded, bugResolved } from "./actions";
 import Home from "./components/Home";
 import log from './IMG_1520.mp4'
 import './App.css'
 
 function App() {
-  const state = useRef(store.getState())
   const isMount = useRef(false)
   useEffect(()=>{
     if(isMount.current === false){
@@ -20,14 +18,7 @@ function App() {
     }
     
   }, [])
-  let x = 0;
-  const changed = () => {
-    // store.dispatch(bugAdded('what the fuck'))
-    bugAdded('what the fuck')
-  }
-  const resolved = () => {
-    bugResolved(1)
-  }
+
   const appStyle = {
     minHeight: '100vh',
     position: 'relative'
