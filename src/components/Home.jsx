@@ -53,7 +53,7 @@ function Home() {
                     </div>
                     <div className="flex v-flex mb-1">
                         <h4 className='mb-1' style={{color:'#acdcff', margin:'0'}}>Prjects</h4>
-                        <h1 style={{fontSize:'4rem'}}>8<small style={{fontSize:'1rem'}}>live</small></h1>
+                        <h1 style={{fontSize:'4rem'}}>5<small style={{fontSize:'1rem'}}>live</small></h1>
                     </div>
                     <div className="flex v-flex mb-1">
                         <h4 className='mb-1' style={{color:'#acdcff'}}>Education</h4>
@@ -68,7 +68,7 @@ function Home() {
                 <section className="middle3 flex v-flex" style={{width:'200px'}}>
                     <div className="flex v-flex mb-1">
                         <h4 className='mb-1' style={{color:'#acdcff', margin:'0'}}>Experience</h4>
-                        <h1 style={{fontSize:'4rem'}}>3<small style={{fontSize:'1rem'}}>years +</small></h1>
+                        <h1 style={{fontSize:'4rem'}}>5<small style={{fontSize:'1rem'}}>years +</small></h1>
                     </div>
                     <div className="flex v-flex mb-1">
                         <h4 className='mb-1' style={{color:'#acdcff'}}>Services</h4>
@@ -97,7 +97,7 @@ function Home() {
                     </div>
                     <div className="flex v-flex mb-1">
                         <h4 className='mb-1' style={{color:'#acdcff', margin:'0'}}>Prjects</h4>
-                        <h1 style={{fontSize:'4rem'}}>8<small style={{fontSize:'1rem'}}>live</small></h1>
+                        <h1 style={{fontSize:'4rem'}}>5<small style={{fontSize:'1rem'}}>live</small></h1>
                     </div>
                     <div className="flex v-flex mb-1">
                         <h4 className='mb-1' style={{color:'#acdcff'}}>Education</h4>
@@ -107,7 +107,7 @@ function Home() {
                     </div>
                     <div className="flex v-flex mb-1">
                         <h4 className='mb-1' style={{color:'#acdcff', margin:'0'}}>Experience</h4>
-                        <h1 style={{fontSize:'4rem'}}>3<small style={{fontSize:'1rem'}}>years +</small></h1>
+                        <h1 style={{fontSize:'4rem'}}>5<small style={{fontSize:'1rem'}}>years +</small></h1>
                     </div>
                     <div className="flex v-flex mb-1">
                         <h4 className='mb-1' style={{color:'#acdcff'}}>Services</h4>
